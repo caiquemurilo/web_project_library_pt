@@ -60,7 +60,7 @@
   line-height: 30px;
   max-width: 515px;
   margin: 32px 0 0 0;
-  /* coloquei em redundância a margin-top aqui conjuntamente à margin-bottom do header title por conta da revisão automatizada do código estar alertando sobre a falta da margem para esse elemento, embora já tenha definido a margem no .header__title. e por estarem dentro de um container block, a margem colapsa. */
+  /* coloquei em redundância a margin-top aqui conjuntamente à margin-bottom do header title por conta da revisão automatizada do código estar alertando sobre a falta da margem para esse elemento, embora já tenha definido a margem no .header__title. e por estarem dentro de um container block, a margem colapsa, então não vai fazer diferença */
 }
 
 .header__image {
@@ -317,13 +317,10 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-
-  /* Adicione estilos */
 }
 
 .step {
   flex-basis: 220px;
-  /* Adicione estilos */
 }
 
 .step__title {
